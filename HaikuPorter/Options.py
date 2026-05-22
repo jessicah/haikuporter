@@ -335,6 +335,9 @@ def parseOptions():
 	advanced_flags.add_option('--check-ports-releases', action='store_true',
 		dest='checkPortsReleases', default=False,
 		help='check for newer releases of ports published upstream')
+	advanced_flags.add_option('--tree-path', action='store',
+		dest='treePath', default=None,
+		help='specify a different tree path')
 
 	buildmaster_flags = OptionGroup(parser, "Build Master Options",
 		"Options only relevant to Haikuporter running in build master mode")

@@ -227,6 +227,7 @@ haikuportsAttributes = {
 		'default': None,
 		'extendable': Extendable.NO,
 		'indexable': False,
+		'optionAttribute': 'treePath',
 		'setAttribute': 'treePath',
 	},
 	'SYSTEM_MIME_DB': {
